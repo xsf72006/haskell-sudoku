@@ -1,0 +1,41 @@
+.cell input { 
+	width: 3em; 
+	height: 3em; 
+	text-align: center; 
+	font-size: large; 
+	border: 1px solid lightblue;
+}
+
+.r { 
+	border-right: 2px solid grey; 
+}
+
+.d { 
+	border-bottom: 2px solid grey; 
+}
+
+#puzzle { 
+	border-spacing:0; 
+	border-collapse:collapse; 
+	margin: 20px auto;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.btn {
+	width: 10em;
+}
+
+.btn-default:focus {
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
