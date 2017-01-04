@@ -4,20 +4,17 @@
 ```
 sudo apt-get install haskell-platform
 ```
-
 2. Install Haste Compiler
 ```
 cabal update
 cabal install haste-compiler
 haste-boot
 ```
-
 3. Compile Haskell File
 ```
 cd <path-to-project>/Src/
 hastec Sudoku.hs
 ```
-
 4. Run index.html
 
 ### Reference
@@ -26,4 +23,3 @@ Sudoku Sover Algorithm:
 
 Haste GUI reference:
 https://github.com/emilv/sudoku/
-
